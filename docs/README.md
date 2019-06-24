@@ -1,3 +1,13 @@
-# Headline
+# 序言
 
-> An awesome project.
+> 积少而成多，厚积而薄发。
+
+可能是一本防遗忘笔记
+
+可能记录了HTML
+
+可能记录了CSS
+
+可能记录了JavaScript
+
+总之，积少而成多，厚积而薄发。
