@@ -2,8 +2,8 @@
 ```javascript
 /*
 // author: wuguanlin
-// Open a given folder and compress all JPEG images with Tinify.
-// Copyright (c) 2015 Voormedia B.V. All rights reserved.
+// 批量添加水印
+// Copyright (c) 2019 wuguanlin. All rights reserved.
 
 <javascriptresource>
 <menu>automate</menu>
