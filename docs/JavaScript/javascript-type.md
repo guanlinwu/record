@@ -65,10 +65,10 @@ typeof null === 'object'
 > 通过{}.toString拿到，适合内置对象和基元类型，遇到null和undefined失效(IE678等返回[object Object])
 
 ```javascript
-Object.prototype.toString.apply([]); === '[object Array]';
-Object.prototype.toString.apply(function(){}); === '[object Function]';
-Object.prototype.toString.apply(null); === '[object Null]'
-Object.prototype.toString.apply(undefined); === '[object Undefined]'
+Object.prototype.toString.apply([]) === '[object Array]'
+Object.prototype.toString.apply(function(){}) === '[object Function]'
+Object.prototype.toString.apply(null) === '[object Null]'
+Object.prototype.toString.apply(undefined) === '[object Undefined]'
 
 //IE6/7/8 Object.prototype.toString.apply(null) 返回”[object Object]”
 ```

@@ -36,6 +36,7 @@
   -webkit-appearance: none; /*去除 select 表单右侧箭头*/
   border: none;
   outline: none;
+  background: transparent;
 }
 ```
 
@@ -219,4 +220,13 @@ input {
   overflow-y: hidden;
 }
 
+```
+
+## select
+```css
+    .select {
+      text-align-last: right;
+      // direction: rtl;
+    }
+    // option { direction: ltr; }
 ```
